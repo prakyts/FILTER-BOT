@@ -24,7 +24,7 @@ async def save_file(media):
     """Save file in the database."""
     
     file_id = unpack_new_file_id(media.file_id)
-    file_name = clean_file_name(media.file_name)
+    file_name = media.caption
     
     file = {
         'file_id': file_id,
@@ -54,16 +54,7 @@ async def save_file(media):
                 return False, 0
         else:
             print("Your Current File Database Is Full, Turn On Multiple Database Feature And Add Second File Mongodb To Save File.")
-
-def clean_file_name(file_name):
-    """Clean and format the file name."""
-    file_name = re.sub(r"(_|\-|\.|\+)", " ", str(file_name)) 
-    unwanted_chars = ['[', ']', '(', ')', '{', '}']
-    
-    for char in unwanted_chars:
-        file_name = file_name.replace(char, '')
-        
-    return ' '.join(filter(lambda x: not x.startswith('@') and not x.startswith('http') and not x.startswith('www.') and not x.startswith('t.me'), file_name.split()))
+            
 
 def is_file_already_saved(file_id, file_name):
     """Check if the file is already saved in either collection."""
