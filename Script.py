@@ -246,7 +246,7 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>{file_caption}</b>
 
-<b>👉 Join Now: @PrakyTV </b>""" 
+<b>👉 Join Now: @PrakyTV</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
