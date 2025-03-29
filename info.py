@@ -97,7 +97,7 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/PrakyTV')
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', False))
 PM_SEARCH = bool(environ.get('PM_SEARCH', False))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', False))
-MAX_B_TN = bool(environ.get('MAX_B_TN', True))
+MAX_BTN = bool(environ.get('MAX_BTN', True))
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 IMDB = bool(environ.get('IMDB', False))
 AUTO_FFILTER = bool(environ.get('AUTO_FFILTER', True))
@@ -133,7 +133,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtodownload8989/3') # How Ope
 
 # Others
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-MAX_B_TN = environ.get("MAX_B_TN", "5, 10")
+MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
