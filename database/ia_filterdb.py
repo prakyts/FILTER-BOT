@@ -68,7 +68,7 @@ def is_file_already_saved(file_id, file_name):
             
     return False
 
-async def get_search_results(chat_id, query, file_type=None, max_results=10, offset=0, filter=True):
+async def get_search_results(chat_id, query, file_type=None, max_results=10, offset=0, filter=False):
     """For given query return (results, next_offset)"""
     
     query = query.strip()
@@ -103,7 +103,7 @@ async def get_search_results(chat_id, query, file_type=None, max_results=10, off
 
     return files, next_offset, total_results
 
-async def get_bad_files(query, file_type=None, use_filter=True):
+async def get_bad_files(query, file_type=None, use_filter=False):
     """For given query return (results, next_offset)"""
     query = query.strip()
     
