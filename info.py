@@ -94,7 +94,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'prakytvsupport') # Support Chat Link
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/PrakyTV')
 
 # True Or False
-AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', False))
+AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', False))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
