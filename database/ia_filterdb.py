@@ -23,7 +23,6 @@ sec_col = sec_db[COLLECTION_NAME]
 async def save_file(media):
     """Save file in the database."""
     
-    file_id = unpack_new_file_id(media.file_id)
     file_name = clean_file_name(media.caption) 
     
     file = {
