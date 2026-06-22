@@ -208,7 +208,7 @@ Nᴀᴍᴇ - {}"""
 
 ᴇxᴀᴍᴘʟᴇ : Money Heist or Money Heist S01
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+🚫 If still files not showing up even after proper Google search, means its not available in bot. We will try to add it soon 😊</b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ"""
