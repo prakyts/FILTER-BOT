@@ -206,7 +206,7 @@ Nᴀᴍᴇ - {}"""
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Daredevil or Daredevil S01
+ᴇxᴀᴍᴘʟᴇ : Money Heist or Money Heist S01
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
