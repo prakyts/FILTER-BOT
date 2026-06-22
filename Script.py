@@ -202,11 +202,11 @@ Nᴀᴍᴇ - {}"""
 
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Dada or Dada 2023 or Dada Tamil
+ᴇxᴀᴍᴘʟᴇ : Dada or Dada 2023 or Dada 2023 Tamil
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Loki or Loki S01 or Loki S01E04
+ᴇxᴀᴍᴘʟᴇ : Daredevil or Daredevil S01
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
